@@ -30,4 +30,49 @@ p.more {
   display: none;
 }
 
-/* Write your CSS here. */
+* {
+  font-family: "Helvetica Neue", "Helvetica", "sans-serif";
+  background-color: whitesmoke;
+  color: #464646
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0px
+}
+
+ul > li {
+  list-style: none
+}
+
+a:hover, a > span:hover {
+  color: #800080;
+  font-weight: bold;
+}
+
+.page-container {
+  max-width: 1200px;
+}
+
+#leftbar, #center, #rightbar {
+  float: left;
+  padding: 0px 30px;
+  box-sizing: border-box;
+}
+
+footer {
+  clear: both;
+}
+
+#leftbar, #rightbar {
+  width: 25%;
+}
+
+#center {
+  width: 50%;
+  border: 1px solid #464646;
+  border-radius: 10px;
+}

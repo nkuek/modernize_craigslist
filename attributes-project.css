@@ -76,3 +76,30 @@ footer {
   border: 1px solid #464646;
   border-radius: 10px;
 }
+
+#center > div {
+  float: left;
+  width: 33%;
+}
+
+#topban h2 {
+  text-align: center;
+}
+
+ul.clfooter {
+  text-align: center;
+  border-top: 1px solid gray;
+  padding: 10px 0px;
+}
+
+.clfooter > li {
+  display: inline;
+  padding-right: 5px;
+}
+
+h4.ban::before {
+  content: "☮";
+  color: #800080;
+}
+
+
